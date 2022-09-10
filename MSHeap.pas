@@ -2,7 +2,6 @@ unit MSHeap;
 
 // default MM override using Windows Heap API
 // Roberto Della Pasqua www.dellapasqua.com
-// previous code found publicily
 // 10 sept 2022 added inline directive, zeromemory and freemem return value
 
 {$O+}
