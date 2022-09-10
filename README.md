@@ -7,7 +7,7 @@ tested under win10, win2022, shows optimum performances both under single and mu
 
 how to replace the default MM:
 
-project view source
+project -> view source
 
 program Test;
 
