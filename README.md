@@ -11,7 +11,7 @@ https://en.delphipraxis.net/topic/7357-64bit-rtl-patches-with-intel-oneapi-and-t
 
 https://users.rust-lang.org/t/why-dont-windows-targets-use-malloc-instead-of-heapalloc/57936
 
-// 10 sept 2022 
+// 10 sept 2022 added inline directive, zeromemory and freemem return value
 
 kind regards
 
