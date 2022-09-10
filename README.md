@@ -13,7 +13,7 @@ program Test;
 
 uses
 
-MSHeap,
+MSHeap, // put the unit at the first uses
   
   ..
 
