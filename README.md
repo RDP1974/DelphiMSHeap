@@ -5,6 +5,18 @@ tested under win10, win2022, shows optimum performances both under single and mu
 
 (similar to intel tbbmalloc or fmm5)
 
+how to replace the default MM:
+
+- project view source
+
+program Test;
+
+uses
+
+MSHeap,
+  
+  ..
+
 please see
 
 https://en.delphipraxis.net/topic/7357-64bit-rtl-patches-with-intel-oneapi-and-tbb/
