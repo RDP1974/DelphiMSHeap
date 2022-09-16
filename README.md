@@ -16,13 +16,12 @@ https://users.rust-lang.org/t/why-dont-windows-targets-use-malloc-instead-of-hea
 // 10 sept 2022 added inline directive, zeromemory and freemem return value<br>
 <br>
 kind regards<br>
-<br>
 Roberto Della Pasqua<br>
 <br>
-btw. below a test from DMVC author https://github.com/danieleteti/delphimvcframework
+btw. below a test from DMVC author https://github.com/danieleteti/delphimvcframework<br>
 C:\WORK\Apache24\bin\ab.exe -c 100 -n 10000 http://localhost:8080/api<br>
 Benchmarking localhost (be patient)<br>
-...<br>
+<br>
 Finished 10000 requests<br>
 <br>
 Concurrency Level:      100<br>
@@ -38,7 +37,6 @@ Transfer rate:          63.12 [Kbytes/sec] received<br>
 Using MSHeap<br>
 C:\WORK\Apache24\bin\ab.exe -c 100 -n 10000 http://localhost:8080/api<br>
 Benchmarking localhost (be patient)<br>
-...<br>
 <br>
 Concurrency Level:      100<br>
 Time taken for tests:   2.054 seconds<br>
