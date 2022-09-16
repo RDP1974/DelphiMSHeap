@@ -6,7 +6,7 @@ how to replace the default MM:<br><br>
 project -> view source<br>
 program Test;<br>
 uses<br>
-MSHeap, // put the unit at the first uses<br>
+MSHeap // put the unit at the first uses<br>
 ..<br>
 please see<br>
 https://en.delphipraxis.net/topic/7357-64bit-rtl-patches-with-intel-oneapi-and-tbb/<br>
