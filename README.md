@@ -27,7 +27,7 @@ Complete requests:      10000<br>
 Failed requests:        0<br>
 Total transferred:      1830000 bytes<br>
 HTML transferred:       10000 bytes<br>
-Requests per second:    <b><u>353.18</u></b> [#/sec] (mean) <br>
+Requests per second:    <b><i>353.18</i></b> [#/sec] (mean) <br>
 Time per request:       283.138 [ms] (mean)<br>
 Time per request:       2.831 [ms] (mean, across all concurrent requests)<br>
 Transfer rate:          63.12 [Kbytes/sec] received<br><br>
@@ -39,7 +39,7 @@ Complete requests:      10000<br>
 Failed requests:        0<br>
 Total transferred:      1830000 bytes<br>
 HTML transferred:       10000 bytes<br>
-Requests per second:    <b><u>4869.63</u></b> [#/sec] (mean) <br>
+Requests per second:    <b><i>4869.63</i></b> [#/sec] (mean) <br>
 Time per request:       20.535 [ms] (mean)<br>
 Time per request:       0.205 [ms] (mean, across all concurrent requests)<br>
 Transfer rate:          870.26 [Kbytes/sec] received<br>
