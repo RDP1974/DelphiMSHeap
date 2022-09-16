@@ -7,11 +7,8 @@ project -> view source<br>
 program Test;<br>
 uses<br>
 MSHeap, // put the unit at the first uses<br>
-<br>  
 ..<br>
-<br>
 please see<br>
-<br>
 https://en.delphipraxis.net/topic/7357-64bit-rtl-patches-with-intel-oneapi-and-tbb/<br>
 https://en.delphipraxis.net/topic/7357-64bit-rtl-patches-with-intel-oneapi-and-tbb/?tab=comments#comment-62867<br>
 https://users.rust-lang.org/t/why-dont-windows-targets-use-malloc-instead-of-heapalloc/57936<br>
