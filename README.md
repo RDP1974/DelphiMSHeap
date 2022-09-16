@@ -1,6 +1,5 @@
 # DelphiMSHeap
 Default MM override using Windows Heap API
-
 tested under win10, win2022, shows optimum performances both under single and multithreaded applications 
 
 (quicker than intel tbbmalloc)
