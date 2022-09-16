@@ -30,11 +30,9 @@ HTML transferred:       10000 bytes<br>
 Requests per second:    <b><u>353.18</u></b> [#/sec] (mean) <br>
 Time per request:       283.138 [ms] (mean)<br>
 Time per request:       2.831 [ms] (mean, across all concurrent requests)<br>
-Transfer rate:          63.12 [Kbytes/sec] received<br>
+Transfer rate:          63.12 [Kbytes/sec] received<br><br>
 Using MSHeap<br>
 C:\WORK\Apache24\bin\ab.exe -c 100 -n 10000 http://localhost:8080/api<br>
-Benchmarking localhost (be patient)<br>
-<br>
 Concurrency Level:      100<br>
 Time taken for tests:   2.054 seconds<br>
 Complete requests:      10000<br>
