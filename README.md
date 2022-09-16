@@ -19,11 +19,8 @@ kind regards<br>
 Roberto Della Pasqua<br>
 <br>
 btw. below a test from DMVC author https://github.com/danieleteti/delphimvcframework<br>
+Using default MM<br>
 C:\WORK\Apache24\bin\ab.exe -c 100 -n 10000 http://localhost:8080/api<br>
-Benchmarking localhost (be patient)<br>
-<br>
-Finished 10000 requests<br>
-<br>
 Concurrency Level:      100<br>
 Time taken for tests:   28.314 seconds<br>
 Complete requests:      10000<br>
