@@ -17,6 +17,7 @@ https://users.rust-lang.org/t/why-dont-windows-targets-use-malloc-instead-of-hea
 <br>
 kind regards<br>
 Roberto Della Pasqua<br>
+www.dellapasqua.com
 <br>
 btw. below a test from DMVC author https://github.com/danieleteti/delphimvcframework<br><br>
 Using default MM<br>
