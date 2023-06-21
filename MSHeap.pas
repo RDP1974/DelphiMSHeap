@@ -20,10 +20,10 @@ begin
   Result := HeapAlloc(ProcessHeap, 0, Size);
 end;
 
-function SysFreeMem(P: Pointer): Integer; inline;
+function SysFreeMem(P: Pointer): Integer; inline; //thanks Daniele Teti delphimvc
 begin
-  HeapFree(ProcessHeap, 0, P); //returns 0 if fail, but this can stop the execution
-  Result:=0; //for Delphi management should be reversed to zero, else throws a runtime exception
+  Result := 0;
+  if not HeapFree(ProcessHeap, 0, P) then Result := -1;
 end;
 
 function SysReallocMem(P: Pointer; Size: NativeInt): Pointer; inline;
