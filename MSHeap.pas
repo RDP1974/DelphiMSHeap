@@ -3,6 +3,7 @@ unit MSHeap;
 // default MM override using Windows Heap API
 // Roberto Della Pasqua www.dellapasqua.com
 // 10 sept 2022 added inline directive, zeromemory and freemem return value
+// 21 jun 2023 addition by Daniele Teti https://github.com/danieleteti/delphimvcframework
 
 {$O+}
 
