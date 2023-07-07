@@ -1,6 +1,6 @@
 # DelphiMSHeap
 Default MM override using Windows Heap API<br>
-tested under win10, win2022, shows optimum performances both under single and multithreaded applications <br>
+tested under win10, win2022, show optimum performances both under single and multithreaded applications <br>
 how to replace the default MM:<br><br>
 project -> view source<br>
 program Test;<br>
