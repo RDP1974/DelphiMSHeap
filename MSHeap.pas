@@ -3,7 +3,7 @@ unit MSHeap;
 // default MM override using Windows Heap API
 // Roberto Della Pasqua www.dellapasqua.com
 // 10 sept 2022 added inline directive, zeromemory and freemem return value
-// 21 jun 2023 addition by Daniele Teti https://github.com/danieleteti/delphimvcframework
+// 21 jun 2023 thanks for a hint Daniele Teti https://github.com/danieleteti/delphimvcframework
 
 {$O+}
 
@@ -23,8 +23,8 @@ end;
 
 function SysFreeMem(P: Pointer): Integer; inline; //thanks Daniele Teti delphimvc
 begin
-  Result := 0;
-  if not HeapFree(ProcessHeap, 0, P) then Result := -1;
+//25 nov 2025
+if HeapFree(ProcessHeap, 0, P) then Result := 0 else Result := -1;
 end;
 
 function SysReallocMem(P: Pointer; Size: NativeInt): Pointer; inline;
@@ -64,3 +64,4 @@ ProcessHeap := GetProcessHeap;
 SetMemoryManager(MemoryManager);
 
 end.
+
