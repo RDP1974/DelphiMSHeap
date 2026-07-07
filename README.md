@@ -1,7 +1,5 @@
 # DelphiMSHeap
 Default MM override using Windows Heap API<br><br>
-*** 07 07 26 In a very rare condition, it fails a regression test. For now, I recommend not using it until corrected. I suggest rdpmm64 (tbbmalloc + simd) instead ***
-<br><br>
 tested under win10, win2022, show optimum performances both under single and multithreaded applications <br>
 how to replace the default MM:<br><br>
 project -> view source<br>
